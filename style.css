@@ -287,10 +287,21 @@ a:hover {
   gap: 12px;
 }
 
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .footer-brand {
   font-weight: 700;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+.footer-meta {
+  color: #cdd6ea;
+  font-size: 0.82rem;
 }
 
 .footer-copy {
