@@ -13,7 +13,7 @@ HARO Works（ハロワークス）の公式ウェブサイトのリポジトリ�
 
 ## お問い合わせ
 
-sugisan125.dev@gmail.com
+contact@haroworks.com
 
 ## 構成
 
