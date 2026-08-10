@@ -223,14 +223,10 @@ a:hover {
 
 .product-icon {
   flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   width: 56px;
   height: 56px;
   border-radius: 14px;
-  background: linear-gradient(140deg, #eef3ff, #dbe6ff);
-  font-size: 1.6rem;
+  border: 1px solid var(--line);
 }
 
 .product-name {
