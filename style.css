@@ -185,6 +185,117 @@ a:hover {
   font-weight: 700;
 }
 
+.section-lead {
+  margin: -28px 0 48px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+/* Products */
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(15, 31, 61, 0.1);
+}
+
+.product-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.product-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(140deg, #eef3ff, #dbe6ff);
+  font-size: 1.6rem;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--navy);
+  line-height: 1.4;
+}
+
+.product-sub {
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.product-desc {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0 0 22px;
+  padding: 0;
+}
+
+.product-tags li {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  color: var(--navy);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.product-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.store-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 20px;
+  border-radius: 999px;
+  background: var(--navy);
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 700;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.store-btn:hover {
+  background: var(--navy-soft);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
 /* Cards */
 .cards {
   display: grid;
@@ -324,7 +435,8 @@ a:hover {
   .section {
     padding: 64px 0;
   }
-  .cards {
+  .cards,
+  .products {
     grid-template-columns: 1fr;
   }
   .pc-only {

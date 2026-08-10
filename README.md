@@ -10,6 +10,14 @@ HARO Works（ハロワークス）の公式ウェブサイトのリポジトリ�
 - モバイルアプリケーション開発
 - AIツール開発
 - Webサービス運営
+- 自社アプリの配信・運営（App Store / Google Play）
+
+## 自社アプリ
+
+| アプリ | ストア |
+| --- | --- |
+| つぶトレ - AIスピーキングコーチ（TsubuTalk: AI Speaking Coach） | [App Store](https://apps.apple.com/jp/app/id6779087627) / [Google Play](https://play.google.com/store/apps/details?id=app.tsubutalk.mobile) |
+| 連打名人 - Tap Champion | [App Store](https://apps.apple.com/jp/app/id6788312662) / [Google Play](https://play.google.com/store/apps/details?id=com.haroworks.tapchampion) |
 
 ## お問い合わせ
 
